@@ -16,7 +16,7 @@ The website should have the following pages:
 + About Us page
 + Legal page, including Terms of Use, and Privacy Policy
 
-## Language and frameworks used
+## Languages and Frameworks used
 + PHP
 + Laravel
 + SQL Server
