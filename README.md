@@ -16,6 +16,11 @@ The website should have the following pages:
 + About Us page
 + Legal page, including Terms of Use, and Privacy Policy
 
+## Language and frameworks used
++ PHP
++ Laravel
++ SQL Server
+
 In this project, I was tasked with the following:
 + Design an appropriate database. It should store articles, their categories, and their tags. Articles must be indexed by creation date, category, and tags so that they can quickly be listed by these features. Note that an article has exactly 1 category, but can have any number (including 0) of tags.
 + Create a Laravel project and link it up with the database.
