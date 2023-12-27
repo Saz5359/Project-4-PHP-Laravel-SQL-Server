@@ -28,10 +28,21 @@ In this project, I was tasked with the following:
 + Create a cookie notice that is displayed on every page of the website.
 + Create a footer that is displayed on all web pages. It should contain links to the search page and legal page. It should also display a copyright notice
 
+## My Contribution
+Most of the files and folders in this repository are Laravel-generated files. The code I wrote can be found in various places, including in:
++ resources/views
++ resources/views/components
++ routes/web.php
+
 ## How to install project
-This is a simple website that requires you to have a text editor and a browser
-+ Copy all files to a folder
-+ Make sure all folders are copied
-+ click html files to view them in the browser
-+ File can be modified in a text editor
++ Download and install Composer if you don't already have it: https://getcomposer.org/doc/00-intro.md.
++ Install Laravel with the following command from a terminal: composer global require laravel/installer.
++ Download Microsoft SQL Server if you don't already have it: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
++ Clone this Github repository into a directory of your choice.
++ Run composer install in the project repository console
++ Run php artisan serve in the console This will start the server and you can access your Laravel application at http://localhost:8000/ in your web browser.
++ If the project does not run then you should run the following in a new repository:
+  - composer create-project laravel/laravel example-app
+  - replace the public, resources, and routes files with the ones in the cloned repository.
+  - Run php artisan serve in the console This will start the server and you can access your Laravel application at http://localhost:8000/ in your web browser.
 
